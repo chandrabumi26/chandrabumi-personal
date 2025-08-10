@@ -41,7 +41,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${vt323.variable} ${pixelfySans.variable} antialiased`}
       >
-        {children}
+        <div className="bg-[#F2E4CC] min-h-screen [font-family:var(--font-pixelify_sans)]">
+          {children}
+        </div>
       </body>
     </html>
   );
