@@ -10,6 +10,7 @@ export default function ContactMe() {
         <div className="w-full bg-[#FFFCF7] border-[5px] border-solid border-[#D7CCC8] rounded-2xl shadow-[0_0_14px_0_rgba(0,0,0,0.18)] p-10">
             <div className="flex flex-col">
               <h1 className="text-6xl font-semibold">Connect With Me</h1>
+              <h2 className="text-2xl mt-6">My inbox is always open for new opprtunities</h2>
               <div className="flex flex-col gap-[60px] mt-16">
                 <Link href="https://github.com/chandrabumi26" className="flex items-center px-9 py-7 gap-8 bg-[#E0F2FE] border-[5px] border-solid border-[#BAE6FD] rounded-2xl">
                   <Image width="50" height="50" src={GithubLogo} alt="github-logo" />
